@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Aprende HTML desde cero con gu&iacute;as, ejemplos y actividades pr&aacute;cticas." name="description"/>
+  <title>
+   Nivel b&aacute;sico | HTML WEB
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <header class="site-header">
+   <a class="brand" href="index.html">
+    <span class="shield">
+     5
+    </span>
+    HTML WEB
+   </a>
+   <nav aria-label="Navegaci&oacute;n principal" class="nav">
+    <a class="" href="index.html">
+     ⌂ Inicio
+    </a>
+    <a class="active" href="basico.html">
+     ▤ B&aacute;sico
+    </a>
+    <a class="" href="intermedio.html">
+     &fltns; Intermedio
+    </a>
+    <a class="" href="avanzado.html">
+     ✦ Avanzado
+    </a>
+   </nav>
+  </header>
+  <main>
+   <section class="hero">
+    <div class="reveal">
+     <div class="eyebrow">
+      Ruta de aprendizaje &middot; Nivel 01
+     </div>
+     <h1>
+      HTML desde
+      <span class="gradient-text">
+       cero
+      </span>
+     </h1>
+     <p>
+      Conoce los fundamentos del lenguaje de marcado y crea tu primer documento. No necesitas experiencia previa: sigue las lecciones y prueba cada ejemplo.
+     </p>
+     <div class="actions">
+      <a class="btn" href="#leccion1">
+       Comenzar lecci&oacute;n &darr;
+      </a>
+      <a class="btn secondary" href="intermedio.html">
+       Ver siguiente nivel &rarr;
+      </a>
+     </div>
+    </div>
+    <div class="hero-art reveal delay-2">
+     <div class="float-badge">
+      5
+     </div>
+     <div class="code-window">
+      <div class="dots">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+      </div>
+      <span class="code-orange">
+       &lt;!DOCTYPE html&gt;
+      </span>
+      <br/>
+      <span class="code-blue">
+       &lt;html lang="es"&gt;
+      </span>
+      <br/>
+      &nbsp;&nbsp;&lt;head&gt;
+      <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Mi primera web&lt;/title&gt;
+      <br/>
+      &nbsp;&nbsp;&lt;/head&gt;
+      <br/>
+      &nbsp;&nbsp;&lt;body&gt;
+      <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;&iexcl;Hola, mundo!&lt;/h1&gt;
+      <br/>
+      &nbsp;&nbsp;&lt;/body&gt;
+      <br/>
+      <span class="code-blue">
+       &lt;/html&gt;
+      </span>
+     </div>
+    </div>
+   </section>
+   <div class="content-wrap">
+    <div class="note reveal">
+     <strong>
+      Objetivo:
+     </strong>
+     reconocer las partes de un documento HTML y escribir una p&aacute;gina sencilla con t&iacute;tulo, encabezados y p&aacute;rrafos. Tiempo estimado: 15&ndash;20 minutos.
+    </div>
+    <section class="content-card reveal scroll-reveal" id="leccion1">
+     <span class="tag">
+      LECCI&Oacute;N 1
+     </span>
+     <h2>
+      1. &iquest;Qu&eacute; es HTML?
+     </h2>
+     <p>
+      HTML significa
+      <em>
+       HyperText Markup Language
+      </em>
+      , o lenguaje de marcado de hipertexto. Es el lenguaje est&aacute;ndar utilizado para definir la estructura y el significado del contenido que aparece en las p&aacute;ginas web.
+     </p>
+     <p>
+      Con HTML puedes marcar un texto como t&iacute;tulo, organizar informaci&oacute;n en p&aacute;rrafos y listas, insertar im&aacute;genes, crear enlaces y preparar formularios. HTML no es, por s&iacute; solo, un lenguaje de programaci&oacute;n: describe y estructura contenido.
+     </p>
+     <div class="two-col">
+      <div>
+       <h3>
+        HTML, CSS y JavaScript
+       </h3>
+       <ul>
+        <li>
+         <strong>
+          HTML:
+         </strong>
+         estructura y contenido.
+        </li>
+        <li>
+         <strong>
+          CSS:
+         </strong>
+         colores, tipograf&iacute;a y distribuci&oacute;n visual.
+        </li>
+        <li>
+         <strong>
+          JavaScript:
+         </strong>
+         acciones y comportamientos interactivos.
+        </li>
+       </ul>
+      </div>
+      <div class="snippet">
+       HTML = estructura
+       <br/>
+       CSS = presentaci&oacute;n
+       <br/>
+       JavaScript = interacci&oacute;n
+      </div>
+     </div>
+    </section>
+    <section class="content-card reveal scroll-reveal">
+     <span class="tag">
+      LECCI&Oacute;N 2
+     </span>
+     <h2>
+      2. Etiquetas, elementos y atributos
+     </h2>
+     <p>
+      Las etiquetas suelen escribirse entre los signos
+      <code>
+       &lt;
+      </code>
+      y
+      <code>
+       &gt;
+      </code>
+      . Un elemento com&uacute;n tiene una etiqueta de apertura, contenido y una etiqueta de cierre.
+     </p>
+     <div class="snippet">
+      &lt;p class="introduccion"&gt;Estoy aprendiendo HTML.&lt;/p&gt;
+     </div>
+     <ul>
+      <li>
+       <strong>
+        Etiqueta:
+       </strong>
+       <code>
+        &lt;p&gt;
+       </code>
+       marca el comienzo de un p&aacute;rrafo.
+      </li>
+      <li>
+       <strong>
+        Atributo:
+       </strong>
+       <code>
+        class="introduccion"
+       </code>
+       proporciona informaci&oacute;n adicional al elemento.
+      </li>
+      <li>
+       <strong>
+        Contenido:
+       </strong>
+       el texto que se muestra en el p&aacute;rrafo.
+      </li>
+     </ul>
+     <p>
+      No todas las etiquetas llevan cierre tradicional. Por ejemplo,
+      <code>
+       &lt;img&gt;
+      </code>
+      inserta una imagen y utiliza atributos para indicar su archivo y una descripci&oacute;n alternativa.
+     </p>
+    </section>
+    <section class="content-card reveal scroll-reveal">
+     <span class="tag">
+      LECCI&Oacute;N 3
+     </span>
+     <h2>
+      3. Estructura de un documento
+     </h2>
+     <div class="two-col">
+      <div class="snippet">
+       &lt;!DOCTYPE html&gt;
+       <br/>
+       &lt;html lang="es"&gt;
+       <br/>
+       &nbsp;&nbsp;&lt;head&gt;
+       <br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;
+       <br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+       <br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Mi p&aacute;gina&lt;/title&gt;
+       <br/>
+       &nbsp;&nbsp;&lt;/head&gt;
+       <br/>
+       &nbsp;&nbsp;&lt;body&gt;
+       <br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Hola, mundo&lt;/h1&gt;
+       <br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Mi primer sitio web.&lt;/p&gt;
+       <br/>
+       &nbsp;&nbsp;&lt;/body&gt;
+       <br/>
+       &lt;/html&gt;
+      </div>
+      <div>
+       <ul>
+        <li>
+         <code>
+          &lt;!DOCTYPE html&gt;
+         </code>
+         identifica un documento HTML moderno.
+        </li>
+        <li>
+         <code>
+          &lt;html lang="es"&gt;
+         </code>
+         envuelve el documento e indica el idioma principal.
+        </li>
+        <li>
+         <code>
+          &lt;head&gt;
+         </code>
+         contiene metadatos y el t&iacute;tulo de la pesta&ntilde;a.
+        </li>
+        <li>
+         <code>
+          &lt;body&gt;
+         </code>
+         contiene el contenido visible.
+        </li>
+        <li>
+         <code>
+          &lt;meta charset="UTF-8"&gt;
+         </code>
+         ayuda a mostrar correctamente caracteres y tildes.
+        </li>
+       </ul>
+      </div>
+     </div>
+    </section>
+    <section class="content-card reveal scroll-reveal">
+     <span class="tag">
+      LECCI&Oacute;N 4
+     </span>
+     <h2>
+      4. Etiquetas b&aacute;sicas
+     </h2>
+     <div class="table-wrap">
+      <table>
+       <thead>
+        <tr>
+         <th>
+          Etiqueta
+         </th>
+         <th>
+          Funci&oacute;n
+         </th>
+         <th>
+          Ejemplo de uso
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          <code>
+           &lt;h1&gt;
+          </code>
+          a
+          <code>
+           &lt;h6&gt;
+          </code>
+         </td>
+         <td>
+          Encabezados por nivel
+         </td>
+         <td>
+          T&iacute;tulo y subt&iacute;tulos
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <code>
+           &lt;p&gt;
+          </code>
+         </td>
+         <td>
+          Crear un p&aacute;rrafo
+         </td>
+         <td>
+          Una explicaci&oacute;n
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <code>
+           &lt;a&gt;
+          </code>
+         </td>
+         <td>
+          Crear un enlace
+         </td>
+         <td>
+          Ir a otra p&aacute;gina
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <code>
+           &lt;img&gt;
+          </code>
+         </td>
+         <td>
+          Insertar una imagen
+         </td>
+         <td>
+          Ilustrar el contenido
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <code>
+           &lt;ul&gt;
+          </code>
+          y
+          <code>
+           &lt;li&gt;
+          </code>
+         </td>
+         <td>
+          Crear listas
+         </td>
+         <td>
+          Enumerar ideas
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <code>
+           &lt;strong&gt;
+          </code>
+         </td>
+         <td>
+          Marcar importancia
+         </td>
+         <td>
+          Resaltar un concepto
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <p>
+      Escribe el c&oacute;digo en un editor de texto y guarda el archivo con la extensi&oacute;n
+      <code>
+       .html
+      </code>
+      , por ejemplo,
+      <code>
+       index.html
+      </code>
+      . Despu&eacute;s puedes abrirlo con tu navegador.
+     </p>
+    </section>
+    <div class="quiz-banner reveal scroll-reveal">
+     <div>
+      <h2>
+       &iquest;Listo para comprobar lo aprendido?
+      </h2>
+      <p>
+       Prepara tus conocimientos con un cuestionario de pr&aacute;ctica. El formulario puede crearse en Google Forms para registrar las respuestas.
+      </p>
+     </div>
+     <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSehlrRu-yQ-Ak5OchxTw5IqjctViySbnlBtaoTmkmJt5YD81g/viewform?usp=publish-editor" rel="noopener" target="_blank">
+      Abrir Google Forms &nearrow;
+     </a>
+    </div>
+    <div class="actions">
+     <a class="btn secondary" href="index.html">
+      &larr; Volver al inicio
+     </a>
+     <a class="btn violet" href="intermedio.html">
+      Siguiente: nivel intermedio &rarr;
+     </a>
+    </div>
+   </div>
+  </main>
+  <footer class="site-footer">
+   <a class="brand" href="index.html">
+    <span class="shield">
+     5
+    </span>
+    HTML WEB
+   </a>
+   <span>
+    Aprende. Crea. Construye.
+   </span>
+   <div class="footer-links">
+    <a href="index.html">
+     Inicio
+    </a>
+    <a href="basico.html">
+     B&aacute;sico
+    </a>
+    <a href="intermedio.html">
+     Intermedio
+    </a>
+    <a href="avanzado.html">
+     Avanzado
+    </a>
+   </div>
+   <span>
+    &copy;
+    <span data-year="">
+     2026
+    </span>
+    HTML WEB
+   </span>
+  </footer>
+ </body>
+</html>
